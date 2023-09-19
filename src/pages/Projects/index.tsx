@@ -1,9 +1,9 @@
-const Home = () => {
+const Projects = () => {
   return (
     <section className="w-full h-full  relative ">
-      <h1>Home Page</h1>
+      <h1>Projects</h1>
     </section>
   );
 };
 
-export default Home;
+export default Projects;

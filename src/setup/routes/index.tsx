@@ -1,5 +1,5 @@
 import { Route } from "react-router-dom";
-import { Home } from "../../pages";
+import { Home, Projects } from "../../pages";
 
 export const publicRoutes = [
   {
@@ -7,8 +7,8 @@ export const publicRoutes = [
     element: <Home />,
   },
   {
-    path: "/about",
-    element: <Home />,
+    path: "/projects",
+    element: <Projects />,
   },
   {
     path: "/projects",

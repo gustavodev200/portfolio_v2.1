@@ -1,6 +1,6 @@
 import { ToggleThemeButtonProps } from "../models";
-import { HiLightBulb } from "react-icons/hi";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+
+import { BsFillMoonStarsFill, BsBrightnessHighFill } from "react-icons/bs";
 
 export const DarkModeToggle = ({
   toggleTheme,
@@ -10,10 +10,10 @@ export const DarkModeToggle = ({
     <button
       onClick={toggleTheme}
       type="button"
-      className="p-2 rounded  text-black dark:text-white font-semibold"
+      className="ml-1 mt-5  rounded  text-black dark:text-white font-semibold"
     >
       {theme === "dark" ? (
-        <HiLightBulb size={28} />
+        <BsBrightnessHighFill size={32} />
       ) : (
         <BsFillMoonStarsFill size={28} />
       )}
